@@ -6,7 +6,7 @@
 
 <img src="Wolf.png" alt="Wolf" width="140" height="auto" style="border-radius:50%"   />
 <br/>
-<h3><b>Blog de Documentación GIT</b>
+<h3><b>Blog de Documentación GIT </b>
 
 </div>
 
@@ -67,12 +67,12 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
 
 ### shell Features <a name="shell-features"></a>
-<li> 1 Prueba de Conectividad <li>
-<li> 2 Mostrar Configuracion de Red <li>
-<li> 3 Tabla de enrutamiento <li>
-<li> 4 resolucion de nombres DNS <li>
-<li> 5 revisar puertos de la maquina <li>
-<li> 6 test de velocidad <li>
+<li> Prueba de Conectividad <li>
+<li> Mostrar Configuracion de Red <li>
+<li> Tabla de enrutamiento <li>
+<li> resolucion de nombres DNS <li>
+<li> revisar puertos de la maquina <li>
+<li> test de velocidad <li>
 
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
@@ -84,29 +84,39 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
      | Crear un directorio con el nombre del repositorio
 
-<img src="Carpeta.png" alt="Carpeta" width="400" height="auto" style="border-radius:15%"   />
+<img src="./Capturas/Carpeta.png" alt="Carpeta" width="400" height="auto" style="border-radius:15%"   />
 
      | Ejecutar la carpeta con git bash
 
-<img src="CapturaGIT.png" alt="Ejecucion" width="400" height="auto" style="border-radius:15%"   />
+<img src="./Capturas/CapturaGIT.png" alt="Ejecucion" width="400" height="auto" style="border-radius:15%"   />
 
      | Para iniciar la ejecucion en visual studio se utiliza code . que permite abrir el directorio con VS 
 
-<img src="Code.png" alt="Codigo" width="auto" height="auto" style="border-radius:10%"   />
+<img src="./Capturas/Code.png" alt="Codigo" width="auto" height="auto" style="border-radius:10%"   />
 
      | En este caso se creara un archivo sh en cual se utilizara varios parametros para identificar la red de la siguiente manera
 
-<img src="Fichero" alt="Fichero" width="auto" height="auto" style="border-radius:10%"   />
+<img src="./Capturas/Fichero.png" alt="Fichero" width="auto" height="auto" style="border-radius:10%"   />
 
      | ahora se ejecutara la terminal git con ctrl+shift+ñ y agregar bash - una ves hecho esto ejecutaremos git init que permite que la carpeta cree un local master para los archivos 
 
-<img src="init" alt="int" width="auto" height="auto" style="border-radius:10%"   />
+<img src="./Capturas/init.png" alt="int" width="auto" height="auto" style="border-radius:10%"   />
 
      | una ves procedido esto podemos observar el estado de los archivos con git status
 
-<img src="status" alt="status" width="auto" height="auto" style="border-radius:10%"   />
+<img src="./Capturas/status.png" alt="status" width="auto" height="auto" style="border-radius:10%"   />
 
-  
+     | para conectar con un repositorio es crear un repositorio, una vez creado se copiara el origen por http y se pegara con el codigo  "Git Remote Add Orgin - REPO"
+
+<img src="./Capturas/remote.png" alt="remote" width="auto" height="auto" style="border-radius:10%"   />
+
+     | Para configurar el los archivos locales es igualmente necesario utilizar 
+       | git config --global user.name "Usuario" 
+       | git config --global user.email "Correo" 
+
+<img src="./Capturas/UsuarioEmail.png" alt="remote" width="auto" height="auto" style="border-radius:10%"   />
+
+
     
 ## 💻 Getting Started <a name="getting-started"></a>
 
