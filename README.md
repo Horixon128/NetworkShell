@@ -104,6 +104,8 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
      | una ves procedido esto podemos observar el estado de los archivos con git status
 
+<img src="status" alt="status" width="auto" height="auto" style="border-radius:10%"   />
+
   
     
 ## 💻 Getting Started <a name="getting-started"></a>
