@@ -7,7 +7,17 @@
 <img src="Wolf.png" alt="Wolf" width="140" height="auto" style="border-radius:50%"   />
 <br/>
 <h3><b>Blog de Documentación GIT </b>
+<h2> Tecnologo en Gestión de redes de datos
 
+</div>
+<div>
+
+
+<li><b> Nombre:</b> Juan David Ostios Rodriguez</li>
+<li><b> Ficha:</b> 2618040</li>
+<li><b> Lugar:</b> CGMLTI</li>
+
+##
 </div>
 
 # ✅ TABLE OF CONTENTS
@@ -78,7 +88,56 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 
-### [DOCUMENTATION]<a name="Documentación"></a>
+<img src="./Capturas/UsuarioEmail.png" alt="remote" width="auto" height="auto" style="border-radius:10%"   />
+
+     | Para utilizar 
+    
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running follow these steps:
+
+### Prerequsites 
+
+To run this project you need the following tools:
+
+- [VS Code]
+- [Git and GitHub]
+- [ShellScript ]
+
+### Setup
+
+Clone this respository  to your desired folder:
+
+```sh
+cd NEWTORK-SCRIPT
+git clone https://github.com/alyconr/Network-Shell-Script-.git
+```
+### Install
+
+Install This project with:
+
+```sh
+    ./networkScript.sh
+```
+
+### Usage 
+
+To run the project, execute the following command:
+
+```sh
+./networkScript.sh
+```
+
+### Run Test
+
+To run test, run the following command or endpoint:
+
+```sh
+python -m unittest test_module.TestClass
+```
+
+### Comandos GIT
 
 <li><b> 1: ¿Que es Git remote ?</b></li>
 
@@ -166,57 +225,6 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
     | Git Checkout <branch_name>: permite intercambiarse entre ramas de un repositorio externo
 ##
     | Git Checkout <branch_name>: permite intercambiarse entre ramas de un repositorio externo
-
-
-<img src="./Capturas/UsuarioEmail.png" alt="remote" width="auto" height="auto" style="border-radius:10%"   />
-
-     | Para utilizar 
-    
-## 💻 Getting Started <a name="getting-started"></a>
-
-
-To get a local copy up and running follow these steps:
-
-### Prerequsites 
-
-To run this project you need the following tools:
-
-- [VS Code]
-- [Git and GitHub]
-- [ShellScript ]
-
-### Setup
-
-Clone this respository  to your desired folder:
-
-```sh
-cd NEWTORK-SCRIPT
-git clone https://github.com/alyconr/Network-Shell-Script-.git
-```
-### Install
-
-Install This project with:
-
-```sh
-    ./networkScript.sh
-```
-
-### Usage 
-
-To run the project, execute the following command:
-
-```sh
-./networkScript.sh
-```
-
-### Run Test
-
-To run test, run the following command or endpoint:
-
-```sh
-python -m unittest test_module.TestClass
-```
-
 
 ### Deployment
 
