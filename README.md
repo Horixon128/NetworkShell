@@ -80,17 +80,36 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
 ### [DOCUMENTATION]<a name="Documentación"></a>
 
-<li><b> 1: ¿Que es Git remote add origin:</b></li>
+<li><b> 1: ¿Que es Git remote ?</b></li>
+
+##
 
     | Git remote add origin: es un comando de Git utilizado para agregar un nuevo repositorio remoto al que se puede enviar o obtener cambios de un repositorio local.
 
-<li><b> 2: ¿Que es Git Bash?:</b></li> 
+## 
+    | Git remote add upstream url: estás estableciendo una conexión con el repositorio original de desarrollo, lo que te permite recibir actualizaciones y mejoras desde allí. 
 
-    | Git Bash es un entorno de línea de comandos (shell) basado en Unix que proporciona una interfaz de línea de comandos para usar Git, un sistema de control de versiones distribuido. Git Bash se utiliza principalmente en sistemas operativos de Microsoft Windows, aunque también es compatible con otros sistemas operativos.
+## 
+    | Git remote set-url Repo_name Nueva_url: Este comando se utiliza para cambiar la dirección URL de un repositorio remoto existente.
+## 
+ 
+    | Git remote rename origin mi-repo-url: Este comando se utiliza para cambiar el nombre de un repositorio remoto existente. Puedes cambiar el nombre de "origin" o "upstream
+ ## 
+    | Git remote rm origin: Este comando se utiliza para eliminar un repositorio remoto existente de tu configuración local
+ ## 
+    | Git remote show origin: Este comando muestra información detallada sobre los repositorios remotos configurados en tu proyecto actual
+ ##
+
+<li><b> 2: ¿Que es Git Bash y GitHub?:</b></li> 
+
 ##
+    | Git Bash es una herramienta que permite interactuar con Git desde una interfaz de línea de comandos, similar a la de GNU/Linux. Se utiliza para ejecutar comandos de Git. GitHub es una plataforma en la nube que facilita el almacenamiento, colaboración y gestión de proyectos de código abierto o privados utilizando Git. En resumen, Git Bash es una herramienta que ayuda a trabajar con Git, mientras que GitHub es una plataforma donde se almacena y compartiendo el código controlado por Git.
+##
+
 <li><b> 3: ¿Que es Git init:</b></li>
 
-    | Git init: Inicializa un repositorio Git en la carpeta actual o en la carpeta que especifiques. Esto crea un directorio ".git" en la carpeta y configura el entorno para que puedas realizar operaciones de control de versiones.
+##
+    | Git Init: es un comando en Git que inicializa un repositorio en una carpeta existente o crea uno nuevo
 ##
 <li><b> 4: ¿Que es Git Clone:</b></li>
 
