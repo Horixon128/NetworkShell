@@ -79,44 +79,79 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
 
 ### [DOCUMENTATION]<a name="Documentación"></a>
-  Tutorial Paso Por Paso
-  ツ Primer Paso 
 
-     | Crear un directorio con el nombre del repositorio
+<li><b> 1: ¿Que es Git remote add origin:</b></li>
 
-<img src="./Capturas/Carpeta.png" alt="Carpeta" width="400" height="auto" style="border-radius:15%"   />
+    | Git remote add origin: es un comando de Git utilizado para agregar un nuevo repositorio remoto al que se puede enviar o obtener cambios de un repositorio local.
 
-     | Ejecutar la carpeta con git bash
+<li><b> 2: ¿Que es Git Bash?:</b></li> 
 
-<img src="./Capturas/CapturaGIT.png" alt="Ejecucion" width="400" height="auto" style="border-radius:15%"   />
+    | Git Bash es un entorno de línea de comandos (shell) basado en Unix que proporciona una interfaz de línea de comandos para usar Git, un sistema de control de versiones distribuido. Git Bash se utiliza principalmente en sistemas operativos de Microsoft Windows, aunque también es compatible con otros sistemas operativos.
+##
+<li><b> 3: ¿Que es Git init:</b></li>
 
-     | Para iniciar la ejecucion en visual studio se utiliza code . que permite abrir el directorio con VS 
+    | Git init: Inicializa un repositorio Git en la carpeta actual o en la carpeta que especifiques. Esto crea un directorio ".git" en la carpeta y configura el entorno para que puedas realizar operaciones de control de versiones.
+##
+<li><b> 4: ¿Que es Git Clone:</b></li>
 
-<img src="./Capturas/Code.png" alt="Codigo" width="auto" height="auto" style="border-radius:10%"   />
+    | Git Clone: Clona un repositorio existente en tu computadora. Proporciona la URL del repositorio y el directorio de destino donde se clonará. Esto crea una copia local del repositorio en la carpeta especificada
+##
+<li><b> 5: ¿Que es Git add:</b></li>
 
-     | En este caso se creara un archivo sh en cual se utilizara varios parametros para identificar la red de la siguiente manera
+    | Git add: Añade archivos o cambios a la preparación para un commit. Puedes agregar un archivo individual, un directorio o todos los archivos modificados. 
+##
+<li><b> 6: ¿Que es Git commit:</b></li>
 
-<img src="./Capturas/Fichero.png" alt="Fichero" width="auto" height="auto" style="border-radius:10%"   />
+    | Git commit: Confirma los cambios agregados en una preparación. Proporciona un mensaje de commit descriptivo que explica los cambios realizados.
+##
+<li><b> 7: ¿Que es Git push: </b></li>
 
-     | ahora se ejecutara la terminal git con ctrl+shift+ñ y agregar bash - una ves hecho esto ejecutaremos git init que permite que la carpeta cree un local master para los archivos 
+    | Git push: Envía los cambios confirmados (commits) desde tu repositorio local hasta el repositorio remoto.
+##
+<li><b> 8: ¿Que es Git :</b></li>
 
-<img src="./Capturas/init.png" alt="int" width="auto" height="auto" style="border-radius:10%"   />
+    | Git Clone: Clona un repositorio existente en tu computadora. Proporciona la URL del repositorio y el directorio de destino donde se clonará. Esto crea una copia local del repositorio en la carpeta especificada
+##
+<li><b> 9: ¿Que es Git Code .:</b></li>
 
-     | una ves procedido esto podemos observar el estado de los archivos con git status
+    | Code.: Es un comando que permite abrir o enlazar un archivo con visual studio
+## 
+<li><b> 10: ¿Que es Git reset:</b></li>
 
-<img src="./Capturas/status.png" alt="status" width="auto" height="auto" style="border-radius:10%"   />
+    | Git Reset: Permite revertir cambios locales, mover el puntero de la rama o deshacer commits.
+##
+    | Git reset --soft HEAD~1: Revertir los ultimos cambios 
+##
+    | Git reset HEAD <>: Deshace los cambios no confirmados de un archivo en el working directory. 
+## 
+    | Git reset --hard commit_id: Rehace todo desde el commit especificado, borrando cambios no confirmados y modificaciones en el working directory y el área de stage.
+##
+    | Git revert commit_id: es un comando de Git que se utiliza para crear un nuevo commit que contiene cambios inversos a un commit específico. Este comando permite corregir errores o comportamientos indeseables en el historial de commits
 
-     | para conectar con un repositorio es crear un repositorio, una vez creado se copiara el origen por http y se pegara con el codigo  "Git Remote Add Orgin - REPO"
+<li><b> 11: ¿Que es Git Log: </b></li>
 
-<img src="./Capturas/remote.png" alt="remote" width="auto" height="auto" style="border-radius:10%"   />
+    | Git Log: Muestra la historia de commits del repositorio.
+##
+    | Git Log --oneline: Muestra la historia de commits en formato one-line, con cada commit mostrado en una sola línea.
 
-     | Para configurar el los archivos locales es igualmente necesario utilizar 
-       | git config --global user.name "Usuario" 
-       | git config --global user.email "Correo" 
+##
+    | Git Log --s: Muestra la historia de commits con una breve descripción estadística de cambios en cada commit.
+
+<li><b> 12: ¿Que es Git Checkout y Git Branch?: </b></li>
+
+
+    | Git Checkout :Permite cambiar entre diferentes ramas que fueron creadas de manera remota y tambien Permite cambiar entre diferentes versiones de archivos en el working directory.
+##
+    | Git Checkout -b <branch_name> : permite crear o generar una nueva rama en el repositorio remoto
+##
+    | Git Checkout <branch_name>: permite intercambiarse entre ramas de un repositorio externo
+##
+    | Git Checkout <branch_name>: permite intercambiarse entre ramas de un repositorio externo
+
 
 <img src="./Capturas/UsuarioEmail.png" alt="remote" width="auto" height="auto" style="border-radius:10%"   />
 
-
+     | Para utilizar 
     
 ## 💻 Getting Started <a name="getting-started"></a>
 
